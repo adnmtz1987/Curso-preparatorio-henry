@@ -153,35 +153,39 @@ img{
   border: 1px solid lightgray;
   padding: 20px;
   margin: 20px;
-  }
+}
   
-  form {
+form {
     width: 300px;
     background-color: white;
     padding: 20px;
-  }
+}
 
-  label {
+label {
     display: block;
     margin-bottom: 5px;
-  }
+}
   
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-  }
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
   
-  input[type="submit"] {
+input[type="submit"] {
     margin-top: 10px;
     background-color: greenyellow;
-  }
+}
 
-  a img{
+a img{
     display: flex;
     margin: 0;
     padding: 0;
-  }
+}
   
+nav ul li a:hover {
+    background: linear-gradient(90deg, #76acdc, #ffffff, #d30707, #ffffff, #76acdc);;
+    color: black; /* Ajusta el color del texto al pasar el mouse */
+}
