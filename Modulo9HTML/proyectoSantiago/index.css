@@ -172,6 +172,8 @@ textarea {
   width: 100%;
   padding: 5px;
   margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
   
 input[type="submit"] {
@@ -187,5 +189,6 @@ a img{
   
 nav ul li a:hover {
     background: linear-gradient(90deg, #76acdc, #ffffff, #d30707, #ffffff, #76acdc);;
-    color: black; /* Ajusta el color del texto al pasar el mouse */
+    color: black;
+    font-size: x-large;
 }
