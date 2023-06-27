@@ -150,15 +150,17 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid lightgray;
+  border: 0px solid lightgray;
   padding: 20px;
   margin: 20px;
 }
   
 form {
     width: 300px;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 20px;
+    border: 1.5px solid lightgrey;
+    border-radius: 10px;
 }
 
 label {
@@ -191,4 +193,13 @@ nav ul li a:hover {
     background: linear-gradient(90deg, #76acdc, #ffffff, #d30707, #ffffff, #76acdc);;
     color: black;
     font-size: x-large;
+}
+
+ol{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: ;
 }
